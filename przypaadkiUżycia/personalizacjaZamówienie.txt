@@ -9,11 +9,17 @@ Klient jest zalogowany.
 
 Scenariusz interakcji:
 1. System udostępnia klientowi możliwe opcje konfiguracyjne.
+	W tym:
+	- wersje wyposażenia
+	- wybór silnika i skrzyni biegów
+	- kolor lakieru, tapicerka i koła
+	- wyposażenie dodatkowe
 2. Klient wybiera odpowiadające mu opcje.
-3. Klient zatwierdza swój wybór.
+3. System prezentuje podsumowanie wybranej konfiguracji samochodu. Jego cenę i dane techniczne.
+4. Klient zatwierdza swój wybór.
 
 Scenariusze alternatywne:
-brak
+1-3. Klient wycofuje się z dokonania zamowienia.
 
 Warunki końcowe:
 brak
