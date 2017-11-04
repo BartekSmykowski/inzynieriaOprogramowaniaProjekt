@@ -1,0 +1,28 @@
+Nazwa PU: Zatwierdzenie zamówienia
+Aktorzy: Pracownik Fabryki
+
+Zdarzenie inicjujące:
+Pracownik fabryki zgłasza chęć zatwierdzenia zamówienia.
+
+Warunki początkowe:
+Pracownik fabryki jest zalogowany do systemu.
+
+Scenariusz interakcji:
+1. System wyświetla szczegółowe dane dotyczące zamówienia:
+	-datę złożenia
+	-modele samochodów
+	-priorytet zamówienia
+	-wartość zamówienia
+	-salon z którego zostało złożone
+	-dane dotyczące samochodów
+	-ilość zamówionych samochodów
+2. System umożliwia prcownikowi fabryki wprowadzenie przewidywanego czsu realizacji zamówienia.
+3. Pracownik fabryki wprowadza czas oczekiwania.
+4. System umożliwia pracownikowi akceptacje zakończenia operacji zatwierdzania zamówienia.
+5. Pracownik zatwierdza koniec operacji.
+
+Scenariusze alternatywne:
+brak
+
+Warunki końcowe:
+status zamówienia zostaje zmieniony  na "zatwierdzone".

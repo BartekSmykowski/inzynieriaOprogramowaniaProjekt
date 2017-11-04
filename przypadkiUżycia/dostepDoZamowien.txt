@@ -1,0 +1,40 @@
+Nazwa PU: Dostęp do zamówień
+Aktorzy: Pracownik Fabryki
+
+Zdarzenie inicjujące:
+Pracownik fabryki zgłasza chęć przeglądania zamówień.
+
+Warunki początkowe:
+Pracownik fabryki jest zalogowany do systemu.
+
+Scenariusz interakcji:
+1. System udostępnia spis ostatnich zamowień z ogólnym opisem zawierającym: 
+	wartość zamówienia, datę złożenia zamówienia, nazwę samochodu.
+2. System umożliwia pracownikowi wprowadzanie kryteriów filtrowania zamówień:
+	-daty złożenia
+	-modele samochodów
+	-priorytet zamówienia
+	-wartość zamówienia
+3. Pracownik fabryki wprowadza i zatwierdza odpowiednie dla niego kryteria.
+4. System prezentuje listę zamówień spełniających kryteria w ten sam sposób jak na początku.
+5. Pracownik fabryki wybiera jedno z zamówień.
+6. System wyświetla szczegóły dotyczące tego zamówienia:
+	-datę złożenia
+	-modele samochodów
+	-priorytet zamówienia
+	-wartość zamówienia
+	-salon z którego zostało złożone
+	-dane dotyczące samochodów
+	-ilość zamówionych samochodów
+	-przewidywany czas oczekiwania na realizację zamówienia
+7. Pracownik fabryki ma możliwość:
+	a. zatwierdzenia wybranego zamówienia (przypadek: "Zatwierdzenie zamówienia").
+	b. odrzucenia wybranego zamówienia (przypadek: " Odrzucenie zamowienia").
+	c. zmiany czasu oczekiwania na realizację zamówienia (przypadek: "Zmiana czasu oczekiwania").
+
+
+Scenariusze alternatywne:
+1-3. W przypadku braku zamówień system wyświetla odpowiedni komunikat.
+
+Warunki końcowe:
+brak

@@ -1,0 +1,21 @@
+Nazwa PU: Zmiana czasu oczekiwania
+Aktorzy: Pracownik Fabryki
+
+Zdarzenie inicjujące:
+Pracownik fabryki zgłasza chęć zmiany czasu oczekiwania na realizację zamówienia.
+
+Warunki początkowe:
+Pracownik fabryki jest zalogowany do systemu.
+Zamówienie ma ustawiony czas oczekiwania na realizację.
+
+Scenariusz interakcji:
+1. System umożliwia prcownikowi fabryki wprowadzenie nowego przewidywanego czsu realizacji zamówienia.
+2. Pracownik fabryki wprowadza czas oczekiwania.
+3. System umożliwia pracownikowi akceptacje zakończenia operacji zmiany czasu oczekiwania.
+4. Pracownik zatwierdza koniec operacji.
+
+Scenariusze alternatywne:
+brak
+
+Warunki końcowe:
+Czas przewidywanego oczekiwania na realizację zamówienia jest uaktualniony.

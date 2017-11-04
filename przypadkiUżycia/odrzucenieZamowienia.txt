@@ -1,0 +1,18 @@
+Nazwa PU: Odrzucenie zamówienia
+Aktorzy: Pracownik Fabryki
+
+Zdarzenie inicjujące:
+Pracownik fabryki zgłasza chęć odrzucenia zamówienia.
+
+Warunki początkowe:
+Pracownik fabryki jest zalogowany do systemu.
+
+Scenariusz interakcji:
+1. System umożliwia pracownikowi akceptacje operacji odrzucenia zamówienia.
+2. Pracownik zatwierdza operacje odrzucenia zamówienia.
+
+Scenariusze alternatywne:
+brak
+
+Warunki końcowe:
+status zamówienia zostaje zmieniony  na "odrzucone".
