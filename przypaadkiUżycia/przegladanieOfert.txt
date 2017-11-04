@@ -1,0 +1,24 @@
+Nazwa PU: Przeglądanie ofert
+Aktorzy: Klient
+
+Zdarzenie inicjujące:
+Klient wykazuje chęć przglądania oferty salonu.
+
+Warunki początkowe:
+Klient jest zalogowany.
+
+Scenariusz interakcji:
+1. System umożliwia klientowi wyszukiwanie samochodów według kryteriów.
+2. System prezentuje klientowi listę samochodów spełniających wymagania.
+3. Klient wybiera określony samochód.
+4. System prezentuje szczegółowe dane dotyczące tego samochodu.
+	W tym możliwości konfiguracji w przypadku zamawiania. 
+	Dane te są pobierane (przypadek: "Pobieranie ofert").
+5. Na tym etapie system udostępnia klientowi możliwość zamówienia samochodu (przypadek: "Składanie zamówienia").
+
+
+Scenariusze alternatywne:
+brak
+
+Warunki końcowe:
+brak

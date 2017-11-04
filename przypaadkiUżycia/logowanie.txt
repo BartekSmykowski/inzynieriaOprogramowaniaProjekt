@@ -1,0 +1,26 @@
+Nazwa PU: Logowanie
+Aktorzy: Klient
+
+Zdarzenie inicjujące:
+Klient wykazuje chęć zalogowania się.
+
+Warunki początkowe:
+Na urządzeniu nie jest zalogowany inny użytkownik.
+Klient posiada konto.
+
+Scenariusz interakcji:
+1. System prosi użytkownika o podanie następujących danych:
+- login lub e-mail
+- hasło
+2. Klient podaje te dane.
+3. Klient zatwierdz dane.
+4. System weryfikuje poprawność danych(wyjątek: dane są nie poprawne).
+
+Scenariusze alternatywne:
+4a. Podane dane są błędne:
+4a1. System inormuje użytkownika o błędnych danych.
+4a2. System przerywa procedure logowania. 
+
+Warunki końcowe:
+Klient jest zalogowany.
+Status zalogowania jest widoczny dla klienta.

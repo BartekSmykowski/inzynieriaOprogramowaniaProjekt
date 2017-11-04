@@ -1,0 +1,19 @@
+Nazwa PU: Personalizacja zamówienia
+Aktorzy: Klient
+
+Zdarzenie inicjujące:
+Klient podczas składania zamówienia zgłasza chęć spersonalizowania go.
+
+Warunki początkowe:
+Klient jest zalogowany.
+
+Scenariusz interakcji:
+1. System udostępnia klientowi możliwe opcje konfiguracyjne.
+2. Klient wybiera odpowiadające mu opcje.
+3. Klient zatwierdza swój wybór.
+
+Scenariusze alternatywne:
+brak
+
+Warunki końcowe:
+brak

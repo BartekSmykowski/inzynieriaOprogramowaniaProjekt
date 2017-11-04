@@ -1,0 +1,34 @@
+Nazwa PU: Składanie zamówienia
+Aktorzy: Klient
+
+Zdarzenie inicjujące:
+Klient wykazuje chęć złozenia zamówienia.
+
+Warunki początkowe:
+Klient jest zalogowany.
+Klient wybrał podstawową ofertę ktora mu odpowiada.
+
+Scenariusz interakcji:
+1. System oferuje klientowi personalizację zamówienia. (prypadek: "Personalizacja zamówienia").
+2. System prosi użytkownika o podanie następujących danych:
+- imię
+- nazwisko
+- e-mail
+- telefon kontaktowy
+3. Klient wypełnia formularz z danymi.
+4. System prosi użytkowniak o podanie danych (kod pocztowy, lub miasto) potrzebnych do określenia najbliższego salonu.
+5. Klient wybiera jaką daną chce podać i ją podaje.
+6. System wyświetla listę dostępnych salonów spełniających kryterium.
+7. Klient wybiera salon najbardziej mu odpowiadający.
+8. System prosi o zaakceptowanie warunków sklepu i przetwarzania danych osobowych.
+9. Klient akceptuje warunki
+10. Klient zatwierdza zamówienie.
+
+Scenariusze alternatywne:
+4a. Podane dane są błędne:
+4a1. System inormuje użytkownika o błędnych danych.
+4a2. System przerywa procedure logowania. 
+
+Warunki końcowe:
+Klient zostaje poinformowany drogą mailową o statusie zamówienia.
+Zamówienie trafia do kolejki zamówień.
